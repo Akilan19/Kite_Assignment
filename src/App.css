@@ -1,38 +1,126 @@
+*{
+  text-transform: capitalize;
+  padding:0px;
+  margin:0px;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    width: 100%;
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0e1016;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  body {
+    padding: 0px;
+    margin: 0px;
+    height:100%;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .animeHeader {
+    margin-left: 50px;
+    width: 600px;
+    height: 80px;
   }
-}
+  
+  .animeHeader{
+    padding-top: 26px;
+    padding-left: 30px;
+  }
+
+  .animeHeader input:hover{
+    outline: none;
+    border: none;
+  }
+
+  .animeHeader input {
+    outline: none;
+    padding-left: 10px;
+    width: 530px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+  
+  .animeDisplay {
+    cursor: pointer;
+    padding-top: 30px;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .coin {
+    width: 200px;
+    height: 300px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    margin: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .coin div{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .headng{
+    transform: translate(0,-10px);
+    color:white;
+    font-size: 30px;
+  }
+
+  .nav{
+    padding-top: 6px;
+    width:100%;
+    position: fixed;
+    background-color: black;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    padding-left: 70px;
+    padding-bottom: 10px;
+    display: flex;
+    z-index: 100;
+  }
+
+  .headng{
+    padding-left:20px;
+    padding-top:40px;
+  }
+
+  .i1{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+  }
+
+  .gith{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 17px;
+  }
+
+  .gith a{
+    color: blue;
+    text-decoration: underline;
+  }
+
+  .ar1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left:50px; 
+  }

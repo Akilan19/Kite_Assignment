@@ -1,0 +1,8 @@
+.abc{
+    display:flex;
+    flex-direction: column;
+}
+
+.pal{
+    margin-left: 50px;
+}
